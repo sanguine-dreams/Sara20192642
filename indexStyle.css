@@ -1,0 +1,33 @@
+body{
+	background-color: #FFF0F5; font-family:"Courier"; margin: 5% 15% 5% 20%;
+	}
+	
+	#navbar { position: fixed; top: 0px;  right: 0px;   padding: 0px;    height: 1em; margin-right: 15%;}
+  
+ 
+    #navbar li {display: inline;float: left;  }/* list-style: none;*/
+	
+   
+    #navbar li a { display: inline;
+	
+     padding: 0px 15px 0px 10px; background-color: #B0E0E6; color: #FFF0F5;  text-decoration: none;  font-size: 30px; }
+	 
+	/* These styles  hide drop menu.*/
+    #navbar li ul {  display: none; background-color: #B0E0E6;}
+	
+	/* These styles  to create a navigation bar with drop menu.*/
+    #navbar li:hover ul {display: block; position: absolute;
+     padding: 0;  margin: 0; text-align: left;   }
+	 
+	 #navbar li a:hover {
+	 color: white; background-color: #FFE4E1; text-decoration: italic; }
+	
+	 h1,h2,h3{font-family: "Courier" ; color: #B0E0E6;}
+	
+	p {font-family: "Courier New";
+	color: #4682B4; 
+	font-weight: bold;}
+	
+.left{ clear:both;  float:left;	width: 50%;} 
+#media img { display: block; border-style:dashed;   border-color:#D8BFD8;  border-width:3px; box-shadow: 2px 5px #E6E6FA; padding: 0px; margin-top: 40px; }
+.right {  clear: right; float: right;}
