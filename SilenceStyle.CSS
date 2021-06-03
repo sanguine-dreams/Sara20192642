@@ -1,0 +1,60 @@
+html {
+  height: 100%;
+}
+ body{
+    font-family: 'Teko', sans-serif; margin: 5% 10% 5% 10%;
+    font-size: larger;
+    background-image:
+    linear-gradient(to right,  #4d83999c, #171d27),
+    url(moth.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+	}
+    .Left{  float:left;	width: 20%; margin-top: 3%;}
+    .Right {  clear: right; float: right; width: 70%;}
+  
+    a:link {
+        text-decoration: none;
+      }
+      
+      a:visited {
+        text-decoration: none;
+      }
+      
+      a:hover {
+        text-decoration: underline;
+      }
+      
+      a:active {
+        text-decoration: underline;
+      }
+
+      footer {
+        text-align: center;
+        padding: 3px;
+        
+        position: absolute;
+        bottom: 0;
+  
+      }
+
+a{ 
+  color: rgb(180, 39, 39);
+ 
+}
+
+p{
+  color: white;
+  letter-spacing: 0.1em;
+  font-size: 130%;
+}
+
+table{
+  color: white;
+  letter-spacing: 0.1em;
+  font-size: 130%;
+
+}
