@@ -1,0 +1,31 @@
+
+html { 
+background: url(music.jpg); 
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+form{
+text-align: center;
+width: 60%;
+margin-left: 20%;
+background-color: rgba(240, 216, 82, 0.733);
+color: rgb(0, 0, 0);
+margin-bottom: 10px;
+
+}
+select{
+    width:50%;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+textarea{
+    width:80%;
+    margin-top:2%;
+}
+input{
+    margin-bottom:2%;
+}
+
